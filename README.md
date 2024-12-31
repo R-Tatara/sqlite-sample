@@ -1,30 +1,18 @@
-# Gemini API
+# SQLite sample
 
-This Python script interacts with Google's Generative AI API using the Gemini 1.5 Flash model to generate content based on a customizable prompt and parameters.
+This project is a Python-based user management system utilizing SQLite for lightweight database storage. It provides functionality to add, retrieve, and delete user information, ensuring ease of use and maintainability for small-scale applications.
 
 ## Installation
+Clone this repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/R-Tatara/gemini-api.git
-cd gemini-api
-pip install -r requirements.txt
+git clone https://github.com/R-Tatara/sqlite-sample.git
+cd sqlite-sample
 ```
 
 ## Usage
-1. Replace the GOOGLE_API_KEY variable with your own API key from Google.
-
-```Python
-GOOGLE_API_KEY = "YOUR_API_KEY"
-```
-
-2. Edit the prompt variable to change the input question or request.
-
-```Python
-prompt = 'What is Google. Answer shortly.'
-```
-
-3. Run the script:
+1. Run the script:
 
 ```Bash
-python -m gemini_api
+python -m sqlite-sample
 ```
